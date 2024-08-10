@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      .sidebar{
+        background-color:green;
+        color:white;
+        position:fixed;
+        right:0;
+        top:0;
+        bottom:0;
+        width:100px;
+      }
+      .cover{
+        background-color:rgba(0,0,0,0.8);
+        position:fixed;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+      .border{
+        font-family:arial;
+        background-color:white;
+        width:450px;
+        padding-left:12px;
+        padding-bottom:15px;
+        border-radius:6px;
+      }
+      .modal{
+        font-weight:bold;
+        font-size:25px;
+      }
+    </style>
+  </head>
+  <body style="height:800px;">
+    <div class="sidebar">
+      right sidebar
+    </div>
+    <div class="cover">
+    <div class="border">
+      <p class="modal">
+        Modal Title
+      </p>
+      <p class="this">
+        This is a modal
+      </p>
+      <button>
+        close
+      </button>
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .image1{
+        width:290px;
+        margin-top:35px;
+      }
+      .image2{
+        width:35px;
+        border-radius:20px;
+      }
+      .grid{
+        display:grid;
+        grid-template-columns:35px 250px;
+        margin-top:10px;  
+        column-gap:10px;      
+      }
+      .paracommon{
+        font-family:arial;
+      }
+      .para1{
+        font-weight:bold;
+        font-size:14px;
+        margin-top:0px;
+      }
+      .para2{
+        color:rgb(96, 96, 96);
+        font-size:13px;
+        margin-bottom:0px;
+      }
+      .para3{
+        color:rgb(96, 96, 96);
+        font-size:13px;
+        margin-top:5px;
+      }
+      .timecommon{
+        position:relative;
+      }
+      .time{
+        position:absolute;
+        background-color:black;
+        color:white;
+        bottom:10px;
+        right:5px;
+        padding-right:6px;
+        padding-left:6px;
+        padding-top:5px;
+        padding-bottom:5px;
+        border-radius:3px;
+        font-size:12px;
+        font-weight:bold;
+      }
+      .grid1{
+        display:grid;
+        grid-template-columns:290px 290px;
+        margin-top:40px;
+      }
+      .header{
+        position:fixed;
+        display:flex;
+        flex-direction:row;
+        top:0;
+        left:0;
+        justify-content:space-between;
+        height:55px;
+        background-color:white;
+      }
+      .left{
+        display:flex;
+        align-items:center;
+        margin-right:40px;
+      }
+      .left1{
+        height:20px;
+        margin-left:20px;
+        margin-right:20px;
+      }
+      .left2{
+        height:20px;
+      }
+      .middle{
+        display:flex;
+        align-items:center;
+        flex:1;
+        max-width:550px;
+      }
+      .searchbox{
+        flex:1;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius:3px;
+        border: 1px solid rgba(192 192 192);
+      }
+      .searchbox::placeholder{
+        font-family:arial;
+        padding-left:10px;
+        font-size:15px;
+      }
+      .middle1{
+       height:37px;
+       width:60px;
+        margin-left:-3px;
+        padding-top:10px;
+        border-width:1px;
+        border-color:rgb(177, 175, 175);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .icon{
+        height:30px;
+      }
+      .link{
+        position:absolute;
+        top:5px;
+        left:0;
+      }
+      
+    </style>
+  </head>
+  <body style="height:800px;">
+    <div class="header">
+      <div class="left">
+        <img class="left1" src="C:\Users\Home\htmlcode\lesson16\hamburger-menu.svg">
+        <img class="left2" src="C:\Users\Home\htmlcode\lesson16\youtube-logo.svg">
+      </div>
+      <div class="middle">
+        <input class="searchbox" type="text"placeholder="Search">
+        <button class="middle1" >
+          <img  class="icon" src="C:\Users\Home\htmlcode\youtube\search.svg">
+        </button>
+      </div>
+    </div>
+   </div>
+   <div class="grid1">
+      <div>
+        <div class="timecommon">
+          <img class=image1 src="thumbnail-1.webp">
+          <div class="time">14:20</div>
+          <a class="link"href="https://www.youtube.com/watch?v=n2RNcPRtAiY">link</a>
+        </div>
+        <div class="grid">
+          <div>
+            <img class="image2" src="channel-1.jpeg">
+          </div>
+          <div class="paracommon">
+            <div>
+              <p class="para1">Talking Tech and AI with Google CE0 Sundar Pichai!</p>
+            </div>
+            <div>
+              <p class="para2">Marques Brownlee</p>
+            </div>
+            <div>
+              <p class="para3">3.4M views · 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body >
+</html>

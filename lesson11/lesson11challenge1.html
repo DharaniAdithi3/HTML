@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .image1{
+        width:250px;
+        height:300px;
+        object-fit:cover;
+        border-radius:30px;
+      }
+      .p1{
+        font-weight:bold;
+        font-size:30px;
+        margin-left:20px;
+        margin-top:10px;
+        margin-bottom:10px;
+      }
+      .image2{
+        width:40px;
+        height:40px;
+        border-radius:40px;
+        object-fit:cover;
+        vertical-align:top;
+      }
+      .p2{
+        font-size:25px;
+        font-weight:500;
+        color:rgb(110, 104, 104);
+        margin-top:0px;
+      }
+      .button{
+        background-color:rgb(36, 36, 204);
+        color:white;
+        border-style:none;
+        padding:10px;
+        border-radius:4px;
+        font-size:15px;
+        padding-left:15px;
+        padding-right:15px;
+      }
+      .border{
+        box-shadow:1px 1px 4px rgba(0,0,0,0.3);
+        padding-bottom:20px;
+        border-radius:30px;
+      }
+      .grid1{
+        display:grid;
+        grid-template-columns:40px 200px;
+        column-gap:10px;
+      }
+      .grid2{
+        display:grid;
+        grid-template-columns:250px 300px;
+        column-gap:20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid2">
+      <div class="border">
+        <div>
+          <img class="image1" src="photo.avif">
+        </div>
+        <div>
+          <div>
+            <p class="p1">
+              girl
+             </p>
+          </div>
+          <div class="grid1">
+            <div>
+              <img class="image2" src="photo.avif">
+            </div>
+            <div>
+              <p class="p2">
+                100 mutual friends
+              </p>
+            </div>    
+          </div>
+          <div>
+            <button class="button">
+              Add Friend
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="border">
+        <div>
+          <img class="image1" src="2.jpg">
+        </div>
+        <div>
+          <div>
+            <p class="p1">
+              paris
+             </p>
+          </div>
+          <div class="grid1">
+            <div>
+              <img class="image2" src="2.jpg">
+            </div>
+            <div>
+              <p class="p2">
+                130 mutual friends
+              </p>
+            </div>    
+          </div>
+          <div>
+            <button class="button">
+              Add Friend
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

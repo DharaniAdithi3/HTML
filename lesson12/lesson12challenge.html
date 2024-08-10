@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        margin-left:20px;
+        margin-right:20px;
+      }
+      .border{
+        border-width:1px;
+        border-color:gray;
+        border-style:solid;
+      }
+      .word{
+        font-weight:600;
+        font-family:arial;
+      }
+      .b{
+        background-color:rgb(30, 30, 196);
+        border-style:none;
+        border-radius:30px;
+        width:35px;
+        height:25px;
+        color:white;
+        font-weight:bold;
+        margin-top:10px;
+      }
+      .combine{
+        display:flex;
+        flex-direction:row;
+        margin-top:20px;
+        justify-content:space-between;
+        border-style:none;
+        padding:8px;
+        background-color:purple;
+
+      }
+      .home{
+        color:white;
+        width:100px;
+        font-weight:bold;
+        font-family:arial;
+      }
+      .search{
+        flex:1;
+        border-radius:20px;
+        height: 30px;
+        margin-top:10px;
+        border-style:none;
+        font-weight:bold;
+        font-family:arial;
+        max-width:800px;
+      }
+      .down{
+        background-color:purple;
+        color:white;
+        border-color:white;
+        width:150px;
+        font-size:16px;
+        border-style:solid;
+        margin-left:100px;
+        padding-left:15px;
+        border-width:1px;
+      }
+      .image{
+        border-radius:40px;
+        width:55px;
+        height:55px;
+        margin-top:10px;
+        margin-right:10px;
+
+      }
+      .oli{
+        display:flex;
+        flex-direction:row;
+        margin-top:20px;
+      }
+      .text{
+        width:40px;
+        margin-left:10px;
+        font-family:arial;
+        margin-bottom:0px;
+        margin-top:1px;
+      }
+      .f{
+        margin-left:300px;
+        background-color:blue;
+        color:white;
+        border-style:none;
+        border-radius:5px;
+        padding:10px;
+        font-family:arial;
+        font-weight:bold;
+        margin-top:15px;
+        padding-left:13px;
+        padding-right:13px;
+      }
+      .cat{
+        color:rgb(102, 101, 101);
+        font-family:arial;
+        margin-left:10px;
+        margin-top:5px;
+        line-height:20px;
+        width:50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border">
+      <div class="flex">
+        <p class="word">Home</p>
+      <button class="b">14</button>
+      </div>
+      <div class="flex">
+        <p class="word">Notifications</p>
+        <button class="b">3</button>
+      </div>
+      <div class="flex">
+        <p class="word">Messages</p>
+        <button class="b">5</button>
+      </div>
+    </div>
+    <div class="combine">
+      <p class="home"> Home</p>
+      <input class="search"type="text" placeholder=" Search">
+      <button class="down"> Download</button>
+    </div>
+    <div class="oli">
+      <div>
+        <img class="image" src="images.jfif">
+      </div>
+      <div>
+        <div>
+          <p class="text"><strong>Oliver</strong> </p>
+        </div>
+        <div>
+          <p class="cat">the cat Popular</p>
+        </div>
+      </div>
+      <div>
+        <button class="f">Follow</button>
+      </div>
+      </div>
+      <div class="oli">
+        <div>
+          <img class="image" src="download.jfif">
+        </div>
+        <div>
+          <div>
+            <p class="text"><strong>Oliver</strong> </p>
+          </div>
+          <div>
+            <p class="cat">the cat Popular</p>
+          </div>
+        </div>
+        <div>
+          <button class="f">Follow</button>
+        </div>
+        </div>
+        <div class="oli">
+          <div>
+            <img class="image" src="screen.png">
+          </div>
+          <div>
+            <div>
+              <p class="text"><strong>Oliver</strong> </p>
+            </div>
+            <div>
+              <p class="cat">the cat Popular</p>
+            </div>
+          </div>
+          <div>
+            <button class="f">Follow</button>
+          </div>
+          </div>
+        </body>
+</html>

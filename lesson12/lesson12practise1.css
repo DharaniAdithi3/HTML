@@ -1,0 +1,38 @@
+.image1{
+  width:300px;
+}
+.image2{
+  width:40px;
+  border-radius:35px;
+  margin-top:10px;
+}
+.grid1{
+   display:grid;
+   grid-template-columns:35px 270px;
+   column-gap:15px;
+}
+.parawhole{
+  font-family:roboto;
+}
+.para1{
+  font-weight:500;
+  font-size:15px;
+  margin-top:10px;
+  margin-bottom:0px;
+}
+.para2{
+  color:rgb(95, 94, 94);
+  font-size:13px;
+  margin-top:10px;
+  margin-bottom:0px;
+}
+.para3{
+  color:rgb(95, 94, 94);
+  font-size:13px;
+  margin-top:4px;
+}
+.grid2{
+  display:grid;
+  grid-template-columns:300px 300px 300px 300px;
+  column-gap:15px;
+}

@@ -1,0 +1,53 @@
+.background{
+  background:linear-gradient(140deg,rgb(223, 0, 130),rgb(223, 0, 130),rgb(223, 0, 130),rgb(252, 252, 166),rgb(4, 197, 4));
+  padding-bottom:150px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:290px;
+  margin-left:500px;
+}
+.border{
+  border:1px solid black;
+  border-radius:15px;
+  padding-bottom:20px;
+  margin-top:90px;
+ background-color: aliceblue;
+}
+.Login{
+  font-family:arial;
+  font-weight:bold;
+  display:flex;
+  justify-content:center;
+  font-size:25px;
+  margin-bottom:15px;
+  margin-top:15px;
+}
+.username{
+  padding-left:30px;
+  color:rgb(109, 106, 106);
+  margin-bottom:10px;
+  font-size:15px;
+  margin-top:30px;
+}
+.forget{
+  color:rgb(109, 106, 106);
+  padding-left:80px;
+}
+.button{
+  font-family:arial;
+  font-weight:bold;
+  padding:10px 80px 10px 80px;
+  font-size:17px;
+  border-radius:25px;
+  border-width:1px;
+  margin-bottom:15px;
+  margin-top:10px;
+  margin-left:40px;
+}
+.not{
+  margin-left:70px;
+}
+.sign{
+  color:rgb(223, 0, 0);
+}

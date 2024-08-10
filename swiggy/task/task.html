@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        ul{
+            display:flex;
+            background-color:rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+            
+        }
+        li{
+            padding:45px;
+            list-style-type: none;
+            font-size: 30px;
+            color:bisque;
+        }
+        li:hover{
+            background-color: pink;
+            color:black;
+            
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        .center{
+            justify-content: center;
+            margin-left: 700px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .border{
+            border:1px solid black;
+            width: 200px;
+            height: 200px;
+            margin-bottom:20px;
+            
+        }
+        .border2{
+            border:1px solid black;
+            width: 200px;
+            height: 200px;
+            margin-bottom:20px;
+            border-radius:100px;
+        }
+        .border1{
+            display:flex;
+
+
+        }
+        .p{
+            font-size: 25px;
+            width: 400px;
+            margin-left: 10px;
+        }
+        .circle{
+            border:1px solid black;
+            background-color: rgb(40,120,45);
+            height:45px;
+            width:400px;
+            position :relative;
+            left:48px;
+        }
+        .b{
+            background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+        .image{
+          width:200px;
+          height:200px;
+        }
+        .image1{
+          width:200px;
+          height:200px;
+          border-radius:100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="b">
+    <p class="center">COSMETICS<p>
+    <ul>
+        <a href="https://www.myntra.com/lipstick"><li>Lipsticks</li></a>
+        <a href="https://www.nykaa.com/makeup/face/face-foundation/c/228"><li>Foundation</li></a>
+        <a href="https://www.myntra.com/waterproof-kajal"><li>Kajal</li></a>
+        <a href="https://www.nykaa.com/makeup/face/face-blush/c/235"><li>Blush</li></a>
+    </ul>
+    <section>
+        <div class="border1">
+            <div class="border">
+        <img class="image" src="data:image/jpeg;base64,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">
+    </div>
+        <p class="p">
+            Lipstick is a cosmetic product used to apply coloration and texture to lips, often made of wax and oil. Different pigments are used to produce color, and minerals such as silica may be used to provide texture.
+        </p>
+    </div> 
+<div class="border1">
+    
+      <p class="p">
+        The base on which something stands. the act of founding or establishing or the state of being founded or established.
+    </p>
+    <div class="border">
+<img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wf04OkjAnYGna8K9PhcQ5Eck6-ifaNao3A&s">
+</div>
+
+</div> 
+<div class="border1">
+  <p class="p">
+   
+Eye liner or eyeliner is a cosmetic used to define the eyes. It is applied around the contours of the eye(s). It is often used to create various aesthetic effects.
+  </p>
+    <div class="border">
+<img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRus1EXxYTeg4fWnPNgZdne39a1vLITZghbrQ&s">
+</div>
+<p class="p">
+    The Kajal Liner glides on easily and adheres well. The wooden pencil enables ultra-fine and precise definition of the eye and is excellent for use on the waterline.   
+</p>
+</div> 
+<div class="border1">
+    <div class="border2">
+<img class="image1" src="data:image/jpeg;base64,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">
+</div>
+<p class="p">
+    A reddening, as of the face. rosy or pinkish tinge. Also called blusher,. a cosmetic used to add a pink or reddish color to the cheeks.
+</p>
+</div>  
+</div>
+    </section>
+    
+</body>
+</html>

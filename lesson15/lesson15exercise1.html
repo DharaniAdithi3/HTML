@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .absolute{
+        background-color:black;
+        color:white;
+        position:absolute;
+        top:-18px;
+        left:-18px;
+        font-family:arial;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:4px;
+        padding-bottom:4px;
+        border-radius:30px;
+        
+      }
+      .fixed{
+        background-color:rgb(63, 61, 61);
+        position:fixed;
+        bottom:20px;
+        right:20px;
+        width:320px;
+        height:180px;
+        margin-top:50px;
+      }
+      .relative{
+        position:relative;
+      }
+      .time{
+        position:absolute;
+        bottom:10px;
+        right:10px;
+        background-color:black;
+        color:white;
+        font-family:arial;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top:5px;
+        padding-bottom:5px;
+        font-size:14px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="relative">
+      <div class="fixed">
+        <div class="absolute">x</div>
+      <div class="time">0:29</div>
+    </div>
+      
+    </div>
+  </body>
+</html>
